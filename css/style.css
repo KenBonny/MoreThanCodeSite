@@ -519,11 +519,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #000080;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #000080;
 }
 
 .service-icon i {
@@ -536,7 +536,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #000080;
 }
 
 .service-title {
@@ -785,7 +785,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #000080;
   float: left;
 }
 
