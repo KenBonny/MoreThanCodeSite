@@ -774,22 +774,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Contact Section
 --------------------------------*/
-#contact {
+/* #contact {
   background: #f7f7f7;
   padding: 80px 0;
-}
+} */
 
-#contact .info {
+.info {
   color: #333333;
 }
 
-#contact .info i {
+.info i {
   font-size: 32px;
   color: #03C4EB;
   float: left;
 }
 
-#contact .info p {
+.info p {
   padding: 0 0 10px 50px;
   line-height: 24px;
 }
