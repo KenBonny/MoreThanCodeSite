@@ -3,6 +3,20 @@
 
 <head>
     <meta charset="utf-8" />
+
+    <!-- CSP Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src https://morethancode.report-uri.com; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src https://www.morethancode.be https://www.google-analytics.com 'self'; script-src https://cdnjs.cloudflare.com https://www.google-analytics.com https://cdn.report-uri.com inline: 'self'; style-src https://cdnjs.cloudflare.com https://fonts.googleapis.com 'self'; upgrade-insecure-requests">
+    <script src="https://cdn.report-uri.com/libs/report-uri-js/1.0.0/report-uri-js.min.js" integrity="sha256-EK9NI8X6u5r94Y27JDrWA5+HXlouWbw99xQDNIuyVqs=" crossorigin="anonymous"></script>
+    <script type="text/json" id="csp-report-uri">
+    {
+        "keys" : ["blockedURI", "columnNumber", "disposition", "documentURI",
+                  "effectiveDirective", "lineNumber", "originalPolicy", "referrer",
+                  "sample", "sourceFile", "statusCode", "violatedDirective"],
+        "reportUri" : "https://morethancode.report-uri.com/r/d/csp/enforce"
+    }
+    </script>
+
+    <!-- title and keywords content -->
     <title>More Than Code</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="More Than Code, programming, coding, freelance, excellence, belgium, belgië, software craftsman, software craftsmanship, Microsoft, .NET, .NET framework"
@@ -38,9 +52,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
     <link rel="stylesheet" href="/css/style.css" integrity="sha256-qyxJ1O2IlvoT8u7Vjuvt6XIRaa461dPDDeh6LUkWUSY=" crossorigin="anonymous">
-
-    <!-- CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src https://morethancode.report-uri.com; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src https://www.morethancode.be https://www.google-analytics.com 'self'; script-src https://cdnjs.cloudflare.com https://www.google-analytics.com https://cdn.report-uri.com inline: 'self'; style-src https://cdnjs.cloudflare.com https://fonts.googleapis.com 'self'; upgrade-insecure-requests">
 </head>
 
 <body>
@@ -470,17 +481,6 @@
 
     <!-- Google Analytics -->
     <script src="/js/analytics.js" integrity="sha256-TnPgVQkTQxhiB/+qF4F5HhhLKoJg/fHKheZmZVOS3IU=" crossorigin="anonymous"></script>
-
-    <!-- CSP Policy -->
-    <script src="https://cdn.report-uri.com/libs/report-uri-js/1.0.0/report-uri-js.min.js" integrity="sha256-EK9NI8X6u5r94Y27JDrWA5+HXlouWbw99xQDNIuyVqs=" crossorigin="anonymous"></script>
-    <script type="text/json" id="csp-report-uri">
-    {
-        "keys" : ["blockedURI", "columnNumber", "disposition", "documentURI",
-                  "effectiveDirective", "lineNumber", "originalPolicy", "referrer",
-                  "sample", "sourceFile", "statusCode", "violatedDirective"],
-        "reportUri" : "https://morethancode.report-uri.com/r/d/csp/enforce"
-    }
-    </script>
 </body>
 
 </html>
