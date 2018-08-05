@@ -132,7 +132,18 @@ jQuery(document).ready(function( $ ) {
     autoplay: false,
     nav: false,
     loop: true,
-    items:4
+    responsive:{
+      0: {
+        items: 1,
+        autoplay: true,
+        autoplayTimeOut: 5000,
+        autoplayHoverPause: true
+      },
+      1024: {
+        items: 4,
+        autoplay: false
+      }
+    }
   });
 
   // Mission carousel (uses the Owl Carousel library)
@@ -142,8 +153,15 @@ jQuery(document).ready(function( $ ) {
     autoplayHoverPause:true,
     nav: false,
     loop: true,
-    items: 2,
-    margin:15
+    margin:15,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      }
+    }
   });
 
 });
