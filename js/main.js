@@ -16,14 +16,6 @@ jQuery(document).ready(function( $ ) {
   // Initiate the wowjs animation library
   new WOW().init();
 
-  // Initiate superfish on nav menu
-  $('.nav-menu').superfish({
-    animation: {
-      opacity: 'show'
-    },
-    speed: 400
-  });
-
   // Mobile Navigation
   if ($('#nav-menu-container').length) {
     var $mobile_nav = $('#nav-menu-container').clone().prop({
@@ -119,7 +111,7 @@ jQuery(document).ready(function( $ ) {
     $(this).children('.carousel-background').remove();
   });
 
-  $(".carousel").swipe({
+  introCarousel.swipe({
     swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
       if (direction == 'left') $(this).carousel('next');
       if (direction == 'right') $(this).carousel('prev');
