@@ -8,10 +8,6 @@ jQuery(document).ready(function( $ ) {
       $('.back-to-top').fadeOut('slow');
     }
   });
-  $('.back-to-top').click(function(){
-    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
-    return false;
-  });
 
   // Initiate the wowjs animation library
   new WOW().init();
@@ -21,10 +17,7 @@ jQuery(document).ready(function( $ ) {
     var $mobile_nav = $('#nav-menu-container').clone().prop({
       id: 'mobile-nav'
     });
-    $mobile_nav.find('> ul').attr({
-      'class': '',
-      'id': ''
-    });
+    $mobile_nav.find('> ul').attr({'class': '', 'id': ''});
     $('body').append($mobile_nav);
     $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>');
     $('body').append('<div id="mobile-body-overly"></div>');
@@ -120,7 +113,7 @@ jQuery(document).ready(function( $ ) {
   });
 
   // Values carousel (uses the Owl Carousel library)
-  $(".values-carousel").owlCarousel({
+  $('.values-carousel').owlCarousel({
     autoplay: false,
     nav: false,
     loop: true,
@@ -139,7 +132,7 @@ jQuery(document).ready(function( $ ) {
   });
 
   // Mission carousel (uses the Owl Carousel library)
-  $(".disciplines-carousel").owlCarousel({
+  $('.disciplines-carousel').owlCarousel({
     autoplay: true,
     autoplayTimeout:5000,
     autoplayHoverPause:true,

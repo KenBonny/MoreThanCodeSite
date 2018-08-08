@@ -47,8 +47,8 @@
     <link rel="shortcut icon" href="favicon.ico"/>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
-          rel="stylesheet"/>
+    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"-->
+    <!--rel="stylesheet"/>-->
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
@@ -90,7 +90,7 @@
 <!-- Intro -->
 <section id="intro">
     <div class="intro-container">
-        <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="10000" data-pause="false">
             <ol class="carousel-indicators"></ol>
             <div class="carousel-inner" role="listbox">
                 <!-- architect software -->
@@ -99,7 +99,9 @@
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2>Architect software</h2>
-                            <p>TODO</p>
+                            <p>The future of software is a product that meets the shifting needs of users.</p>
+                            <p>To achieve this, I create software that welcomes change.</p>
+                            <p>After all, <i>soft</i>ware should be soft and maleable.</p>
                             <a href="#about" class="btn-get-started scrollto">Check out my available services</a>
                         </div>
                     </div>
@@ -109,8 +111,9 @@
                     <div class="carousel-background"><img src="img/intro/write-clean-code.jpg" alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2>Write clean software</h2>
-                            <p>TODO</p>
+                            <h2>Clean code</h2>
+                            <p>To build software that is easy to maintain, I write clean and, most importantly, readable code.</p>
+                            <p>To guarantee quality, my code will be backed up by a suite of tests.</p>
                             <a href="#about" class="btn-get-started scrollto">Check out my available services</a>
                         </div>
                     </div>
@@ -121,7 +124,12 @@
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2>Mentor and teach</h2>
-                            <p>TODO</p>
+                            <p>When I started this profession, I didn't know half of the techniques I know today.</p>
+                            <p>I learned a lot from training, but even more from other craftsmen.</p>
+                            <p>
+                                That is why it's important to pass along the knowledge I acquired 
+                                and there is no better way than to lead by example.
+                            </p>
                             <a href="#about" class="btn-get-started scrollto">Check out my available services</a>
                         </div>
                     </div>
@@ -132,9 +140,10 @@
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2>Collaborate</h2>
-                            <p>TODO</p>
-                            <a href="#about" class="btn-get-started scrollto">Check out my available
-                                services</a>
+                            <p>Crafting software is not the job of a single programmer that is hard to contact anymore.</p>
+                            <p>That is why it is important to work closely with the users.</p>
+                            <p>Nobody can tell you better how the software should work, than the people working with it.</p>
+                            <a href="#about" class="btn-get-started scrollto">Check out my available services</a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +162,7 @@
     </div>
 </section>
 
-<main id="main" data-spy="scroll" data-target="#nav-menu-container" data-offset="0">
+<main id="main">
     <!-- About -->
     <section id="about">
         <div class="container">
@@ -214,8 +223,7 @@
                     <i class="fa fa-graduation-cap"></i>
                     <h4 class="title"><a>Software training</a></h4>
                     <p class="description">When fellow craftsmen are a little out of date because they focus too
-                        hard at the job at hand, I can
-                        help them get up to speed in no time.</p>
+                        hard on the job at hand, I can help them get up to speed in no time.</p>
                 </div>
             </div>
         </div>
@@ -405,7 +413,7 @@
                         </a>
                     </h4>
                     <p class="description">
-                        And finally, no profile is complete without a good, 
+                        And finally, no profile is complete without a good,
                         oldfashioned <a href="cv-ken-bonny.pdf" target="_blank" rel="noopener">resume</a>.
                     </p>
                 </div>
@@ -433,7 +441,8 @@
                     <i class="fa fa-code"></i>
                     <h3>Clean code</h3>
                     <p>
-                        Deliver properly structured, well documented and thoroughly tested code.
+                        I deliver properly structured, well documented and thoroughly tested code 
+                        that is easy to change and extend.
                     </p>
                 </div>
                 <div class="discipline-item">
@@ -445,9 +454,10 @@
                 </div>
                 <div class="discipline-item">
                     <i class="fa fa-line-chart"></i>
-                    <h3>Improve code</h3>
+                    <h3>Continuous improvement</h3>
                     <p>
-                        Improve inefficient code.
+                        Whether it's inefficient, hard to read code or a gap in my own knowledge, 
+                        I strive to improve myself, the codebase and the infrastructure.
                     </p>
                 </div>
                 <div class="discipline-item">
@@ -502,7 +512,7 @@
                     <i class="fa fa-thumbs-up"></i>
                     <h3>Positivity</h3>
                     <p>
-                        I have an upbeat and can do attitude
+                        I have an upbeat and can-do attitude
                     </p>
                 </div>
             </div>
@@ -517,9 +527,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright">
-                    Created by <strong>Ken Bonny</strong>. 
-                    Based on the <a href="https://bootstrapmade.com/bizpage-bootstrap-business-template/" target="_blank" rel="noopener" title="BizPage free bootstrap theme">BizPage free bootstrap theme</a>. Hosted on
-                    <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>. Secured by <a href="https://www.cloudflare.com/" target="_blank" rel="noopener">CloudFlare</a>.</div>
+                    Created by <strong>Ken Bonny</strong>. Based on the
+                    <a href="https://bootstrapmade.com/bizpage-bootstrap-business-template/" target="_blank"
+                       rel="noopener" title="BizPage free bootstrap theme">BizPage free bootstrap theme</a>.
+                    Hosted on <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>. Secured by
+                    <a href="https://www.cloudflare.com/" target="_blank" rel="noopener">CloudFlare</a>.
+                </div>
                 <div class="credits">
                     <!-- 
                         All the links in the footer should remain intact. 
@@ -537,14 +550,12 @@
 <!-- JS libraries -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"
-        integrity="sha256-E/V4cWE4qvAeO5MOhjtGtqDzPndRO1LBk8lJ/PR7CA4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
         integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
         integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"-->
-        <!--integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"
@@ -554,7 +565,8 @@
         crossorigin="anonymous"></script>
 
 <!-- Google Analytics -->
-<script src="js/analytics.js" integrity="sha256-TnPgVQkTQxhiB/+qF4F5HhhLKoJg/fHKheZmZVOS3IU="
+<script src="js/analytics.js"
+        integrity="sha256-TnPgVQkTQxhiB/+qF4F5HhhLKoJg/fHKheZmZVOS3IU= sha384-qisAA9q38Wmo6gYgX7XqNBbq4AglKwDpGl1hpedtSgAJi8CmAE/G8y+eI9WgeCsF sha512-H/9B3a6Z71SSuomPnAsO7DuRdVs8i7/X8SyDEkOV4VPFtoAhY3UCKcMGASGu1NisZqgndx4c9t38H2ZHgS4ZXw=="
         crossorigin="anonymous"></script>
 </body>
 
