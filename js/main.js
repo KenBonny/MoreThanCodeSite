@@ -121,7 +121,7 @@ jQuery(document).ready(function( $ ) {
       0: {
         items: 1,
         autoplay: true,
-        autoplayTimeOut: 5000,
+        autoplayTimeOut: 10000,
         autoplayHoverPause: true
       },
       1024: {
@@ -134,17 +134,19 @@ jQuery(document).ready(function( $ ) {
   // Mission carousel (uses the Owl Carousel library)
   $('.disciplines-carousel').owlCarousel({
     autoplay: true,
-    autoplayTimeout:5000,
+    autoplayTimeout:15000,
     autoplayHoverPause:true,
     nav: false,
     loop: true,
     margin:15,
     responsive: {
       0: {
-        items: 1
+        items: 1,
+        autoplayTimeout:10000
       },
       768: {
-        items: 2
+        items: 2,
+        autoplayTimeout:15000
       }
     }
   });
