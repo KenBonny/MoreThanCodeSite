@@ -19,9 +19,8 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #000080;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 p {
@@ -788,6 +787,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 .discipline-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
+}
+
+#mission span,
+#values span {
+  color: #17a2f1;
+  cursor: pointer;
 }
 
 @media (min-width: 992px) {
