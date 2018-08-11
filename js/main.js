@@ -148,8 +148,10 @@ jQuery(document).ready(function ($) {
     playValue.click(function () {
         if (isValuePlaying) {
             valuesCarousel.trigger('stop.owl.autoplay');
+            playValue.attr('aria-label', 'play');
         } else {
             valuesCarousel.trigger('play.owl.autoplay');
+            playValue.attr('aria-label', 'pause');
         }
         isValuePlaying = !isValuePlaying;
         playValue.toggleClass('fa-play');
@@ -183,8 +185,10 @@ jQuery(document).ready(function ($) {
     playMission.click(function () {
         if (isMissionPlaying) {
             missionCarousel.trigger('stop.owl.autoplay');
+            playMission.attr('aria-label', 'play');
         } else {
             missionCarousel.trigger('play.owl.autoplay');
+            playMission.attr('aria-label', 'pause');
         }
         isMissionPlaying = !isMissionPlaying;
         playMission.toggleClass('fa-play');
