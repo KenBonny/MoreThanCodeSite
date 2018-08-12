@@ -1,0 +1,23 @@
+{
+  "name": "morethancodesite",
+  "version": "1.0.0",
+  "description": "More Than Code public website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenBonny/MoreThanCodeSite.git"
+  },
+  "author": "Ken Bonny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KenBonny/MoreThanCodeSite/issues"
+  },
+  "homepage": "https://github.com/KenBonny/MoreThanCodeSite#readme",
+  "dependencies": {
+    "css-minify": "^1.0.1",
+    "uglify-js": "^3.4.7"
+  }
+}
