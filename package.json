@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/KenBonny/MoreThanCodeSite#readme",
   "dependencies": {
-    "css-minify": "^1.0.1",
-    "uglify-js": "^3.4.7"
+    "uglify-js": "^3.4.7",
+    "uglifycss": "0.0.29"
   }
 }
