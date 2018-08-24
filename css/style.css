@@ -59,6 +59,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+@media(max-width: 330px) {
+  #logo h1 {
+    font-size: small;
+  }
+}
+
 @media (max-width: 768px) {
   .back-to-top { 
     bottom: 15px;
