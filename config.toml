@@ -1,0 +1,4 @@
+baseURL = "https://morethancode.be/"
+languageCode = "nl-be"
+title = "More Than Code - Ken Bonny"
+theme = "MTC Theme"
