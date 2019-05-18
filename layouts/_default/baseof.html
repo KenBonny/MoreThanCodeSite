@@ -15,20 +15,19 @@
     <body>
         <header>
             {{ partial "header/nav.html" . }}
-            
+
             {{ block "header" . }}
             {{ end }}
         </header>
 
-        <div id="content">
-        {{ block "main" . }}
-        {{ end }}
-        </div>
+        <main>
+            {{ block "main" . }}
+            {{ end }}
+        </main>
 
         <footer>
-        {{ block "footer" . }}
-            {{ partial "footer.html" . }}
-        {{ end }}
+            {{ block "footer" . }}
+            {{ end }}
         </footer>
     </body>
 </html>
