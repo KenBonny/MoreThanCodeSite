@@ -1,38 +1,36 @@
-<head>
-    {{ $description := "I am Ken Bonny, a software craftsman who specialises in Microsoft technology." }}
-    <meta charset="utf-8">
-    <meta name="theme-color" content="#000080">
-    
-    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'none'; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com https://fonts.googleapis.com; img-src 'self' data: https://www.google-analytics.com; script-src 'self' https://cdnjs.cloudflare.com https://www.google-analytics.com https://cdn.report-uri.com; style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com; connect-src  https://morethancode.report-uri.com; upgrade-insecure-requests; require-sri-for script style;">
-    <script type="text/json" id="csp-report-uri">
-        {
-            "keys" : ["blockedURI", "columnNumber", "disposition", "documentURI",
-            "effectiveDirective", "lineNumber", "originalPolicy", "referrer",
-            "sample", "sourceFile", "statusCode", "violatedDirective"],
-            "reportUri" : "https://morethancode.report-uri.com/r/d/csp/enforce"
-        }
-        </script>
-    <script src="https://cdn.report-uri.com/libs/report-uri-js/1.0.1/report-uri-js.min.js" integrity="sha256-Cng8gUe98XCqh5hc8nAM3y5I1iQHBjzOl8X3/iAd4jE=" crossorigin="anonymous"></script> -->
-    
-    <title>{{ .Title }}</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="{{ .Title }}, programming, coding, freelance, excellence, belgium, belgië, software craftsman, software craftsmanship, Microsoft, .NET, .NET framework, .NET Core, CSharp, C#" name="keywords">
-    <meta content="{{ $description }}" name="description">
-    
-    <meta name="google-site-verification" content="JDsToWsvqpcrHeTkR-1sdAJueNaSIezu6rf7iz1a-3o">
-    
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@bonny_ken">
-    
-    <meta property="og:title" content="{{ .Title }}">
-    <meta property="og:description" content="{{ $description }}">
-    <meta property="og:image" content="https://www.morethancode.be/img/mtc-640px.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:url" content="https://morethancode.be">
-    <meta property="og:site_name" content="{{ .Title }}">
-    
-    <link rel="shortcut icon" href="favicon.ico">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha256-BtbhCIbtfeVWGsqxk1vOHEYXS6qcvQvLMZqjtpWUEx8=" crossorigin="anonymous" />
-</head>
+{{ $description := "I am Ken Bonny, a software craftsman who specialises in Microsoft technology." }}
+<meta charset="utf-8">
+<meta name="theme-color" content="#000080">
+
+<!-- <meta http-equiv="Content-Security-Policy" content="default-src 'none'; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com https://fonts.googleapis.com; img-src 'self' data: https://www.google-analytics.com; script-src 'self' https://cdnjs.cloudflare.com https://www.google-analytics.com https://cdn.report-uri.com; style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com; connect-src  https://morethancode.report-uri.com; upgrade-insecure-requests; require-sri-for script style;">
+<script type="text/json" id="csp-report-uri">
+    {
+        "keys" : ["blockedURI", "columnNumber", "disposition", "documentURI",
+        "effectiveDirective", "lineNumber", "originalPolicy", "referrer",
+        "sample", "sourceFile", "statusCode", "violatedDirective"],
+        "reportUri" : "https://morethancode.report-uri.com/r/d/csp/enforce"
+    }
+    </script>
+<script src="https://cdn.report-uri.com/libs/report-uri-js/1.0.1/report-uri-js.min.js" integrity="sha256-Cng8gUe98XCqh5hc8nAM3y5I1iQHBjzOl8X3/iAd4jE=" crossorigin="anonymous"></script> -->
+
+<title>{{ .Site.Title }}</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="{{ .Site.Title }}, programming, coding, freelance, excellence, belgium, belgië, software craftsman, software craftsmanship, Microsoft, .NET, .NET framework, .NET Core, CSharp, C#" name="keywords">
+<meta content="{{ $description }}" name="description">
+
+<meta name="google-site-verification" content="JDsToWsvqpcrHeTkR-1sdAJueNaSIezu6rf7iz1a-3o">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@bonny_ken">
+
+<meta property="og:title" content="{{ .Site.Title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:image" content="https://www.morethancode.be/img/mtc-640px.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:url" content="https://morethancode.be">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+<link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha256-BtbhCIbtfeVWGsqxk1vOHEYXS6qcvQvLMZqjtpWUEx8=" crossorigin="anonymous" />
