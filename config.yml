@@ -1,0 +1,6 @@
+baseURL: https://morethancode.be
+languageCode: nl-be
+title: More Than Code
+author: Ken Bonny
+params:
+    description: I am Ken Bonny, a software craftsman who specialises in Microsoft technology.
