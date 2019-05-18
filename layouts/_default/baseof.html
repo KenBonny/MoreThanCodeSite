@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-    {{ block "head" . }}
-        {{ partial "head.html" . }}
-    {{ end }}
+        <title>{{ .Site.Title }}</title>
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        
+        <!-- {{ partial "head/csp.html" . }} -->
+        {{ partial "head/meta.html" . }}
+        {{ partial "head/social.html" . }}
+        {{ partial "head/styles.html" . }}
+        
+        {{ block "head" . }}
+        {{ end }}
     </head>
     <body>
         <header>
