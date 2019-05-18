@@ -14,9 +14,10 @@
     </head>
     <body>
         <header>
-        {{ block "header" . }}
-            {{ partial "header.html" . }}
-        {{ end }}
+            {{ partial "header/nav.html" . }}
+            
+            {{ block "header" . }}
+            {{ end }}
         </header>
 
         <div id="content">
