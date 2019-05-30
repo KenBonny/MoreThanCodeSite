@@ -1,3 +1,9 @@
+{{ define "head" }}
+    <link rel="stylesheet"
+          href={{ "css/homepage.css" | relURL }} 
+          crossorigin="anonymous" />
+{{ end }}
+
 {{ define "main" }}
 <div class="container">
     {{ .Content }}

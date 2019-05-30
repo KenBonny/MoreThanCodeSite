@@ -1,0 +1,9 @@
+{{ if .Get "class" }}
+<div class="alert alert-{{ .Get "class" }}" role="alert">
+{{ else if .Get 0 }}
+<div class="alert alert-{{ .Get 0 }}" role="alert">
+{{ else }}
+<div class="alert alert-primary" role="alert">
+{{ end }}
+    {{ .Inner }}
+</div>
