@@ -1,7 +1,7 @@
 {{ $currentUrl := .RelPermalink }}
 <nav class="navbar navbar-light bg-light navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href={{ "/" | relURL }}>
             <img src="/img/mtc-32px.png" class="d-inline-block align-top" alt="logo">
         </a>
         <button class="navbar-toggler" 
