@@ -1,0 +1,14 @@
+{{ define "head" }}
+<link rel="stylesheet" href={{ "css/fadein.css" | relURL }} />
+{{ end }}
+
+{{ define "main"}}
+<div class="container">
+    <p class="fadein-2s">I thought I put something over here...</p>
+    <p class="fadein-2s delay-2s">I could have sworn...</p>
+    <p class="fadein-2s delay-4s">Where is my beautiful content...</p>
+    <p class="fadein-2s delay-6s">
+        Ah, <a href={{ "/" | relURL }} title="home">there it is</a>
+    </p>
+</div>
+{{ end }}
