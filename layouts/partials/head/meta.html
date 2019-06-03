@@ -6,3 +6,7 @@
     excellence, belgium, belgië, software craftsman, software craftsmanship, 
     Microsoft, .NET, .NET framework, .NET Core, CSharp, C#">
 <meta name="google-site-verification" content="JDsToWsvqpcrHeTkR-1sdAJueNaSIezu6rf7iz1a-3o">
+
+{{ range $.Site.Home.AllTranslations }}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+{{ end }}

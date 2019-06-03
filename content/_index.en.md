@@ -4,7 +4,6 @@ date: 2019-05-18T14:59:45+02:00
 draft: false
 ---
 
-
 <div class="row align-items-center">
     <div class="col-md-8">
         <h1 class="display-1">Welcome</h1>
@@ -30,21 +29,21 @@ A phonecall is very invasive. Most of the time, I'm called at an inconvenient mo
 An email to [ken@morethancode.be](mailto:ken@morethancode.be) is the easiest way to get in touch with me.
 
 ##### {{< icon b linkedin >}} LinkedIn
-The most important social media for recruiters and my most up to date resume is found on my [LinkedIn profile](https://www.linkedin.com/in/kenbonny/).
-
-##### {{< icon b facebook-f >}} Facebook
-At the moment, I'm not using my [personal Facebook](https://www.facebook.com/kenbonny1987) or my [company page](https://www.facebook.com/More-Than-Code-Comm-V-270796656734486/), I check messages about once a month.
+The most important social media for recruiters and my most up to date resume is found on [my LinkedIn profile](https://www.linkedin.com/in/kenbonny/).
 
 ##### {{< icon s map-marker-alt >}} Address
 All snail mail can be sent to [August van Putlei 100, 2150 Borsbeek, Belgium](https://www.google.be/maps/place/August+van+Putlei+100,+2150+Borsbeek/).
+
+##### {{< icon b facebook-f >}} Facebook
+At the moment, I'm not using [my personal Facebook](https://www.facebook.com/kenbonny1987) or [my company page](https://www.facebook.com/More-Than-Code-Comm-V-270796656734486/), I check messages about once a month.
 {{% /card %}}
 
 {{% card title="As soon as possible" %}}
 ##### {{< icon b telegram-plane >}} Telegram
 [Telegram (@KenBonny)](https://telegram.me/KenBonny) is my preferred way to receive a text message.
 
-##### {{< icon b whatsapp >}} Whatsapp
-Whatsapp is also a good way to get in touch.
+##### {{< icon b whatsapp >}} WhatsApp
+WhatsApp is also a good way to get in touch.
 
 ##### {{< icon b twitter >}} Twitter
 The social media I'm most active on is [Twitter (@bonny_ken)](https://twitter.com/bonny_ken/).

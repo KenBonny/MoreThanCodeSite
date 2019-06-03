@@ -2,5 +2,12 @@ baseURL: https://morethancode.be
 languageCode: nl-be
 title: More Than Code
 author: Ken Bonny
-params:
-    description: I am Ken Bonny, a software craftsman who specialises in Microsoft technology.
+languages:
+    en:
+        languageName: English
+        params:
+            description: I am Ken Bonny, a software craftsman who specialises in Microsoft technology.
+    nl:
+        languageName: Nederlands
+        params:
+            description: Ik ben Ken Bonny, een software vakman die zich specialiseert in Microsoft technologie.
