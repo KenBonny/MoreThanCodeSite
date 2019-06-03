@@ -10,3 +10,7 @@ main {
 .card {
     height: 100%;
 }
+.headshot {
+    width: 300px;
+    height: 300px;
+}

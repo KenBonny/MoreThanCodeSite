@@ -4,11 +4,19 @@ date: 2019-05-18T14:59:45+02:00
 draft: false
 ---
 
-# Welcome
-I am Ken Bonny, a software craftsman specialising in Microsoft technology. 
 
-As founder of More Than Code, I help my partners to accomplish their goals 
-by architecting and developing clean, secure and easy to maintain software.
+<div class="row align-items-center">
+    <div class="col-md-8">
+        <h1 class="display-1">Welcome</h1>
+        <p>I am Ken Bonny, a software craftsman specialising in Microsoft technology.</p>
+
+        <p>As founder of More Than Code, I help my partners to accomplish their goals 
+        by architecting and developing clean, secure and easy to maintain software.</p>
+    </div>
+    <div class="col-md-4">
+        <img src="/img/Ken mirrored-min.png" class="rounded headshot mx-auto d-block" alt="Ken Bonny">
+    </div>
+</div>
 
 ## Contact
 {{< alert >}}
@@ -58,7 +66,7 @@ If I can't pick up, I'll get back to you as soon as I can.
 {{% /card %}}
 {{< /row >}}
 
-### Miscelaneous information
+### Other information
 My [blog](https://kenbonny.net/) is where I write about the technical challenges I encounter and how I solve them. I hope some other developers find it helpful. I occasionally write about my personal life or something that has happened to me.
 
 My blog is a good place to gauge my technical skill, but nothing beats the actual code that I produce. This can be found on [my GitHub profile {{< icon b github >}}](https://github.com/KenBonny). Here you can find out if my code is as clean as I say it is.
