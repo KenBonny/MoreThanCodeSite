@@ -1,0 +1,12 @@
+main {
+    padding-top: 70px;
+}
+.row {
+    margin-bottom: 0.25rem;
+}
+.row .col-md-4 {
+    padding-bottom: 1rem;
+}
+.card {
+    height: 100%;
+}
