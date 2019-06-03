@@ -13,7 +13,7 @@ draft: false
         by architecting and developing clean, secure and easy to maintain software.</p>
     </div>
     <div class="col-md-4">
-        <img src="/img/Ken mirrored-min.png" class="rounded headshot mx-auto d-block" alt="Ken Bonny">
+        <img src="/img/ken/Ken mirrored-min.png" class="rounded headshot mx-auto d-block" alt="Ken Bonny">
     </div>
 </div>
 

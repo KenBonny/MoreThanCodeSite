@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href={{ "/" | relURL }}>
-            <img src="/img/mtc-32px.png" class="d-inline-block align-top" alt="logo">
+            <img src="/img/logo/mtc-32px.png" class="d-inline-block align-top" alt="logo">
         </a>
         <button class="navbar-toggler" 
                 type="button" 
@@ -41,7 +41,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         {{ $currentLang := .Lang }}
-                        {{ range $.Site.Home.AllTranslations }}
+                        {{ range .Translations }}
                             {{ if not (eq $currentLang .Lang) }}
                             <a href="{{ .Permalink }}" class="dropdown-item">
                                 <img src={{ printf "/img/flags/%s.png" .Lang | relURL }} alt={{ .Language.LanguageName }}>
