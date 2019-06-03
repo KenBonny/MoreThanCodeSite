@@ -1,17 +1,27 @@
 {{ define "head" }}
 <link rel="stylesheet" 
     href={{ "css/fadein.css" | relURL }} 
-    crossorigin="anonymous"
-    integrity="sha256-7ilgMTiVEvh+ZjmHmofm9E7L+BflI1I/Zf8ZBultqkc=" />
+    crossorigin="anonymous" />
+    <!-- integrity="sha256-7ilgMTiVEvh+ZjmHmofm9E7L+BflI1I/Zf8ZBultqkc=" /> -->
 {{ end }}
 
 {{ define "main"}}
-<div class="container">
-    <p class="fadein-2s">I thought I put something over here...</p>
-    <p class="fadein-2s delay-2s">I could have sworn...</p>
-    <p class="fadein-2s delay-4s">Where is my beautiful content...</p>
-    <p class="fadein-2s delay-6s">
-        Ah, <a href={{ "/" | relURL }} title="home">there it is</a>
-    </p>
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <p>I thought I put something over here...</p>
+        <p class="fadein-2s delay-2s">I could have sworn...</p>
+        <p class="fadein-2s delay-4s">Where is my beautiful content...</p>
+        <p class="fadein-2s delay-6s">
+            Ah, <a href={{ "/" | relURL }} title="home">there it is</a>
+        </p>
+    </div>
+    <div class="col-md-4 text-center text-md-left">
+        <h1 class="display-1">
+            <i class="far fa-surprise fadeinout-2s"></i>
+            <i class="far fa-grin-beam-sweat fadeinout-2s delay-2s"></i>
+            <i class="far fa-meh-blank fadeinout-2s delay-4s"></i>
+            <i class="far fa-laugh fadein-2s delay-6s"></i>
+        </h1>
+    </div>
 </div>
 {{ end }}
