@@ -58,11 +58,11 @@ If I can't pick up, I'll get back to you as soon as I can.
 {{% /card %}}
 {{< /row >}}
 
-### Miscelaneous
-I [blog](https://kenbonny.net/) about technical subjects, but I occasionally write about my personal life or something that has happened to me. This is also a great place to gauge my technical skill.
+### Miscelaneous information
+My [blog](https://kenbonny.net/) is where I write about the technical challenges I encounter and how I solve them. I hope some other developers find it helpful. I occasionally write about my personal life or something that has happened to me.
 
-Speaking about technical skill, you can check out most of my personal projects on my [{{< icon b github >}} GitHub profile](https://github.com/KenBonny). This allows you to see for yourself how clean my code is.
+My blog is a good place to gauge my technical skill, but nothing beats the actual code that I produce. This can be found on [my GitHub profile {{< icon b github >}}](https://github.com/KenBonny). Here you can find out if my code is as clean as I say it is.
 
-KeyBase is a platform to manage public encryption keys. If you don't know what that is, don't worry about it, it's a technical, security and mainly geek thing. If you do know what it is and for some reason need to encrypt your message to me, you can find my public key in [{{< icon b keybase >}} my KeyBase profile](https://keybase.io/kenbonny).
+No profile is complete without a good, oldfashioned [resume {{< icon s file-pdf >}}](documents/cv-ken-bonny.pdf)
 
-Finally, no profile is complete without a good, oldfashioned [{{< icon s file-pdf >}} resume](documents/cv-ken-bonny.pdf).
+Finally, if you need to encrypt a message that you want to send to me and don't trust Wire or Signal, you can find [my KeyBase profile {{< icon b keybase >}}](https://keybase.io/kenbonny). If you don't know what that is, don't worry about it, it's a technical, security and mainly geek thing.
