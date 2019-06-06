@@ -4,12 +4,12 @@ date: 2019-05-18T14:59:45+02:00
 draft: false
 ---
 
-<div class="row align-items-center">
+<div class="row align-items-center jumbotron">
     <div class="col-md-8">
         <h1 class="display-1">Welcome</h1>
-        <p>I am Ken Bonny, a software craftsman specialising in Microsoft technology.</p>
+        <p class="lead">I am Ken Bonny, a software craftsman specialising in Microsoft technology.</p>
 
-        <p>As founder of More Than Code, I help my partners to accomplish their goals 
+        <p class="lead">As founder of More Than Code, I help my partners to accomplish their goals 
         by architecting and developing clean, secure and easy to maintain software.</p>
     </div>
     <div class="col-md-4">

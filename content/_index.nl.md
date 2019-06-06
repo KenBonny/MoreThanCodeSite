@@ -4,12 +4,12 @@ date: 2019-05-18T14:59:45+02:00
 draft: false
 ---
 
-<div class="row align-items-center">
+<div class="row align-items-center jumbotron">
     <div class="col-md-8">
         <h1 class="display-1">Welkom</h1>
-        <p>Ik ben Ken Bonny, een software vakman die zich specialiseert in Microsoft technologie.</p>
+        <p class="lead">Ik ben Ken Bonny, een software vakman die zich specialiseert in Microsoft technologie.</p>
 
-        <p>Als zaakvoerder van More Than Code, help ik mijn partners hun doelen te bereiken door onderhoudbare, uitbreidbare en veilige software te ontwikkelen.</p>
+        <p class="lead">Als zaakvoerder van More Than Code, help ik mijn partners hun doelen te bereiken door onderhoudbare, uitbreidbare en veilige software te ontwikkelen.</p>
     </div>
     <div class="col-md-4">
         <img src="/img/ken/Ken mirrored-min.png" class="rounded headshot mx-auto d-block" alt="Ken Bonny">
