@@ -16,7 +16,7 @@ draft: false
     </div>
 </div>
 
-## Contact
+# Contact
 {{< alert >}}
 Kleine waarschuwing, ik word niet graag gestoord door een rinkelende telefoon.<br />
 Meestal komt een telefoongesprek op een onverwacht moment, het onderbreekt dan een gesprek of gedachtegang. Ik word het liefst gecontacteerd via een niet dringende methode.
@@ -64,7 +64,7 @@ Als ik niet kan opnemen, bel ik u zo snel mogelijk terug.
 {{% /card %}}
 {{< /row >}}
 
-## Andere informatie
+# Andere informatie
 Op mijn [blog](https://kenbonny.net/) schrijf ik over de technische uitdagingen die ik tegenkom en hoe ik deze oplos. Ik hoop dat het mede-ontwikkelaars helpt. Ik schrijf occasioneel ook mijn persoonlijk leven of over situaties die ik meemaak.
 
 Mijn blog is een goede plek om mijn technische vaardigheden in te schatten, maar er gaat niets boven de effectieve code die ik schrijf. Deze kan op [mijn GitHub profiel {{< icon b github >}}](https://github.com/KenBonny) gevonden worden. Hier kan u zien of mijn code effectief zo goed is als ik beweer.
