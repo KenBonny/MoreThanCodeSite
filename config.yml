@@ -7,7 +7,9 @@ languages:
         languageName: English
         params:
             description: I am Ken Bonny, a software craftsman who specialises in Microsoft technology.
+            vat: VAT
     nl:
         languageName: Nederlands
         params:
             description: Ik ben Ken Bonny, een software vakman die zich specialiseert in Microsoft technologie.
+            vat: BTW
