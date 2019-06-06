@@ -1,5 +1,6 @@
 main {
     padding-top: 70px;
+    min-height: 96.3vh;
 }
 .row {
     margin-bottom: 0.25rem;
@@ -17,6 +18,9 @@ h1.display-1 {
 h1 {
     color: #006699;
 }
+h3 {
+    color: #0099CC;
+}
 h5 {
     color: #003399;
 }
@@ -29,6 +33,8 @@ a:hover {
 .card {
     border-color: #0099CC;
 }
-.card-title {
-    color: #0099CC;
+footer {
+    background-color: #F8F9FA;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
