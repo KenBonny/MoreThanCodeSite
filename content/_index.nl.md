@@ -12,7 +12,7 @@ draft: false
         <p>Als zaakvoerder van More Than Code, help ik mijn partners hun doelen te bereiken door onderhoudbare, uitbreidbare en veilige software te ontwikkelen.</p>
     </div>
     <div class="col-md-4">
-        <img src="/img/Ken mirrored-min.png" class="rounded headshot mx-auto d-block" alt="Ken Bonny">
+        <img src="/img/ken/Ken mirrored-min.png" class="rounded headshot mx-auto d-block" alt="Ken Bonny">
     </div>
 </div>
 
