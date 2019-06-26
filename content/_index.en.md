@@ -25,7 +25,7 @@ A phonecall is very invasive. Most of the time, I'm called at an inconvenient mo
 
 {{< row >}}
 {{% card title="Not urgent" %}}
-##### {{< icon r envelope >}} Email
+##### {{< icon s envelope >}} Email
 An email to [ken@morethancode.be](mailto:ken@morethancode.be) is the easiest way to get in touch with me.
 
 ##### {{< icon b linkedin >}} LinkedIn

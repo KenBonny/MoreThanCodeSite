@@ -24,7 +24,7 @@ Meestal komt een telefoongesprek op een onverwacht moment, het onderbreekt dan e
 
 {{< row >}}
 {{% card title="Niet dringend" %}}
-##### {{< icon r envelope >}} Email
+##### {{< icon s envelope >}} Email
 Een email naar [ken@morethancode.be](mailto:ken@morethancode.be) is de gemakkelijkste manier om in contact te komen.
 
 ##### {{< icon b linkedin >}} LinkedIn
