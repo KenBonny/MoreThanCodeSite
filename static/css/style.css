@@ -1,6 +1,5 @@
 main {
     padding-top: 70px;
-    min-height: 96.3vh;
 }
 .row {
     margin-bottom: 0.25rem;
@@ -37,4 +36,32 @@ footer {
     background-color: #F8F9FA;
     padding-top: .5rem;
     padding-bottom: .5rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-height: 576px) { 
+    main {
+        min-height: 89vh;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-height: 768px) {
+    main {
+        min-height: 90vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-height: 992px) {
+    main {
+        min-height: 94.5vh;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-height: 1200px) {
+    main {
+        min-height: 95.5vh;
+    }
 }
