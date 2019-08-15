@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on More Than Code</title>
+    <link>https://morethancode.be/nl/</link>
+    <description>Recent content in Home on More Than Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-be</language>
+    <lastBuildDate>Sat, 18 May 2019 14:59:45 +0200</lastBuildDate>
+    
+	<atom:link href="https://morethancode.be/nl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Diensten</title>
+      <link>https://morethancode.be/nl/services/</link>
+      <pubDate>Wed, 26 Jun 2019 20:05:16 +0200</pubDate>
+      
+      <guid>https://morethancode.be/nl/services/</guid>
+      <description>Beschikbare diensten Consultancy Als ervaren ontwikkelaar kan ik u adviseren over de toekomst van uw software en welke richting deze te sturen om up-to-date te blijven. Ik kan uw team begeleiden bij het implementeren van best practices en geautomatiseerde testen. Daarna zet ik continue integratie op zodat deze verbeteringen hun weg naar productie vinden.
+Naar de cloud verhuizen Wanneer lift and shift tekort schiet, kan het voordelig zijn om te zoeken naar een meer duurzame en efficiente manier om de cloud te gebruiken.</description>
+    </item>
+    
+    <item>
+      <title>Missie</title>
+      <link>https://morethancode.be/nl/mission/</link>
+      <pubDate>Sat, 18 May 2019 19:02:16 +0200</pubDate>
+      
+      <guid>https://morethancode.be/nl/mission/</guid>
+      <description>Mijn missie De missie van More Than Code, mijn missie, is de kwaliteit van software te verbeteren. Wanneer de kwaliteit van een codebase verbetert, stijgt de kwaliteit van het product evenredig. Het wordt gemakkelijker om functionaliteit te implementeren of uit te breiden. Er worden minder fouten gemaakt vanwege verminderde complexiteit. Ik wil dit doel behalen door mijn waardes na te leven. Waardes die, naar mijn mening, gedeeld worden door veel software ontwikkelaars.</description>
+    </item>
+    
+  </channel>
+</rss>
