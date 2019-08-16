@@ -5,6 +5,5 @@ Copy-Item C:\temp\MoreThanCodeSite\* . -Force -Recurse
 Remove-Item C:\temp\MoreThanCodeSite -Force -Recurse
 git add .
 git cm 'Update site'
-## git pull
-## git push
-##git checkout redesign-hugo
+git push -Force
+#git checkout redesign-hugo
