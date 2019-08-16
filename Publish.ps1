@@ -6,4 +6,4 @@ Remove-Item C:\temp\MoreThanCodeSite -Force -Recurse
 git add .
 git cm 'Update site'
 git push --force
-#git checkout redesign-hugo
+git checkout develop
