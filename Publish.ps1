@@ -1,8 +1,9 @@
-hugo -d C:\temp\MoreThanCodeSite
+$tempLocation = "C:\temp\MoreThanCodeSite"
+hugo -d $tempLocation
 git checkout master
 Get-ChildItem . -Exclude .\.git\* | Remove-Item -Force -Recurse
-Copy-Item C:\temp\MoreThanCodeSite\* . -Force -Recurse
-Remove-Item C:\temp\MoreThanCodeSite -Force -Recurse
+Copy-Item $tempLocation\* . -Force -Recurse
+Remove-Item $tempLocation -Force -Recurse
 git add .
 git cm 'Update site'
 git push --force
