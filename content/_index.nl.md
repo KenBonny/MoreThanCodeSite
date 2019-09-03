@@ -64,6 +64,16 @@ Als ik niet kan opnemen, bel ik u zo snel mogelijk terug.
 {{< /row >}}
 
 # Andere informatie
+Als u mij voor uit de goedheid van uw hart wil sponsoren (of ik heb makkelijk toegang nodig tot mijn bank rekening nummer), kan u hier klikken:
+<u title="Copy to clipboard"
+    data-toggle="tooltip" 
+    data-placement="bottom" 
+    onclick="clipboard('BE70 7512 08744 2525')">BE70 7512 08744 2525</u>
+ (BIC <u title="Copy to clipboard"
+            data-toggle="tooltip" 
+            data-placement="bottom" 
+            onclick="clipboard('AXABB22')">AXABB22</u>)
+
 Op mijn [blog](https://kenbonny.net/) schrijf ik over de technische uitdagingen die ik tegenkom en hoe ik deze oplos. Ik hoop dat het mede-ontwikkelaars helpt. Ik schrijf occasioneel ook mijn persoonlijk leven of over situaties die ik meemaak.
 
 Mijn blog is een goede plek om mijn technische vaardigheden in te schatten, maar er gaat niets boven de effectieve code die ik schrijf. Deze kan op [mijn GitHub profiel {{< icon b github >}}](https://github.com/KenBonny) gevonden worden. Hier kan u zien of mijn code effectief zo goed is als ik beweer.

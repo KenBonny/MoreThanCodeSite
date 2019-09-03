@@ -65,6 +65,16 @@ If I can't pick up, I'll get back to you as soon as I can.
 {{< /row >}}
 
 # Other information
+If you want to sponsor me for no reason at all (or I need easy access to my bank account number), it's here: 
+<u title="Copy to clipboard"
+    data-toggle="tooltip" 
+    data-placement="bottom" 
+    onclick="clipboard('BE70 7512 08744 2525')">BE70 7512 08744 2525</u>
+ (BIC <u title="Copy to clipboard"
+            data-toggle="tooltip" 
+            data-placement="bottom" 
+            onclick="clipboard('AXABB22')">AXABB22</u>)
+
 My [blog](https://kenbonny.net/) is where I write about the technical challenges I encounter and how I solve them. I hope some other developers find it helpful. I occasionally write about my personal life or something that has happened to me.
 
 My blog is a good place to gauge my technical skill, but nothing beats the actual code that I produce. This can be found on [my GitHub profile {{< icon b github >}}](https://github.com/KenBonny). Here you can find out if my code is as clean as I say it is.
