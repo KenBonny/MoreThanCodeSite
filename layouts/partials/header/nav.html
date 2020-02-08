@@ -1,0 +1,67 @@
+{{ $currentUrl := .RelPermalink }}
+<nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href={{ "/" | relLangURL }}>
+            <img src="/img/logo/mtc-32px.png" class="d-inline-block align-top" alt="logo">
+        </a>
+        <button class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+
+                {{ range .Site.RegularPages }}
+                    <li class="nav-item">
+                        <a class="nav-link {{if eq .RelPermalink $currentUrl}}active{{ end }}" 
+                           href="{{ .RelPermalink }}">
+                            {{ .Title }}
+                        </a>
+                    </li>
+                {{ end }}
+
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a id="navbarDropdown" 
+                        class="nav-link dropdown-toggle" 
+                        href="#" 
+                        role="button" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false">
+                        <img src={{ printf "/img/flags/%s.png" .Lang | relURL }} alt={{ .Lang }}>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        {{ $currentLang := .Lang }}
+                        {{ range .Translations }}
+                            {{ if not (eq $currentLang .Lang) }}
+                            <a href="{{ .RelPermalink }}" class="dropdown-item">
+                                <img src={{ printf "/img/flags/%s.png" .Lang | relURL }} alt={{ .Language.LanguageName }}>
+                                {{ .Language.LanguageName }}
+                            </a>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                </li>
+            </ul>
+
+            <button id="vatButton"
+                    type="button" 
+                    class="btn btn-light navbar-text" 
+                    title="Copy to clipboard"
+                    data-toggle="tooltip" 
+                    data-placement="bottom"
+                    onclick="clipboard('BE0678.903.295')">
+                {{ .Site.Params.Vat }} BE0678.903.295
+            </button>
+        </div>
+    </div>
+</nav>

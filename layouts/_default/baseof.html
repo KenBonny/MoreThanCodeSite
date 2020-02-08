@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+    <head>
+        <title>{{ .Site.Title }}</title>
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        
+        <!-- {{ partial "head/csp.html" . }} -->
+        {{ partial "head/meta.html" . }}
+        {{ partial "head/social.html" . }}
+        {{ partial "head/styles.html" . }}
+        
+        {{ block "head" . }}
+        {{ end }}
+    </head>
+    <body>
+        <header>
+            {{ partial "header/nav.html" . }}
+
+            {{ block "header" . }}
+            {{ end }}
+        </header>
+
+        <main class="container">
+            {{ block "main" . }}
+            {{ end }}
+        </main>
+
+        <footer>
+            {{ partial "footer/footer.html" }}
+            {{ partial "footer/scripts.html" }}
+            {{ block "footer" . }}
+            {{ end }}
+        </footer>
+    </body>
+</html>

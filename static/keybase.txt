@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/kenbonny
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.morethancode.be
+  * I am kenbonny (https://keybase.io/kenbonny) on keybase.
+  * I have a public key with fingerprint D0FE 42E1 D4DC ACED DB0A  F3C2 511A C015 5B8C 229C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c82d10910da237abd3f20b4c6fe9f2c6a023f4ec69df3ee7bf40ccf3b02b6f330a",
+      "fingerprint": "d0fe42e1d4dcaceddb0af3c2511ac0155b8c229c",
+      "host": "keybase.io",
+      "key_id": "511ac0155b8c229c",
+      "kid": "0101c82d10910da237abd3f20b4c6fe9f2c6a023f4ec69df3ee7bf40ccf3b02b6f330a",
+      "uid": "91d5ea3a686a38af22655e5ad1bb6d19",
+      "username": "kenbonny"
+    },
+    "service": {
+      "hostname": "www.morethancode.be",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1507221612,
+  "expire_in": 157680000,
+  "prev": "af374714cbf8eee2b0ff167a50a9759446c9eea358b9124d22380b9443cdaaa6",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.74
+Comment: https://keybase.io/crypto
+
+yMItAnicrZJZSFRRGMdnLKcasSzsoTCC20MLMpxz7jJzJ4OEilYqWkBbxrPd8eZ0
+73TnqolGLqTRQ2EbBBVFRmFliUZCmpYGbQ+FVPYSFUUQSmYb9CCdO9Rbj52Xw/n4
+/3/n/318A9kTfEF/7pyG6NbTgbj/8d2z5b6iFyWJaonYrEqKVktlPH3xBOMpN1Zm
+MikqAQggjSAGgQ4Bw0gOY8JkAwGiUM3guoGohgGSDYVTTWeGzHmYGAqg1JAJQEQz
+ZBlgKV8yTCvOnaRjWq7AMmBwBXHIFEYx5YwRgA2ZIhVCTAFUVRKhCOlUGEvtlOcQ
+4QhO8ZBpi5p4xNLx/qH/z7nL0zgdMpVjGWsRDcsRbCCkqSpXMYOEaAzqnjDFHQvv
+5umsFrEtq0raly+JaoVJuTdYr5M/isrKytBu2+FuKbaozXiIcIFIOrZrUzshBKWu
+m0xFPYBblUw7OIn9YcWIaTExTuGo4E7KtC0pCoWSuqYHhyoIIwQ1iPIlvjdpOjxm
+ego1rEWAON4/vEIgxcTDShgqlBgRzjkiwDCgFsYqwHpY1RVFozoXXasRokOkMITk
+CCCiLlOGMdYkr7s9li1FNRETxwUyZcYt7JY7XNp3r2/7RJ8/6AtkZnhr5gtOyfm7
+fPfrJ/saOoOxBU++bz4UGuw9XtdkDc09smYFvNyW67grzxWO7S9c6m8bsa7tmD4t
+mEjYiWL6cdbrpt5TibxipXZv0y2wwd/f//bhz4zsC+sPLpl3fNG5ry9Hv53JHCn+
+ZXRkrW08lrqjL2Odh1W74FfngcCksu7FjzbVL9z1oHms5XrH+02zdzav3njqi0pb
+X5182pMxMAcv+nC3IVDR1Zzz+cf4z5o31X3da2v9VIrvOr0q0Xp4XbbePJw1enN+
+e2PuFfNYzZbK3szawd4FgeXRo3U9Wefz3ty42n7veUtj2bvxT8NTP/hfDM0IFbbQ
+2+3b6r4/O/nu0ZM9M7WiSxcLSk4kBzu6aoZ+AxJVRgw=
+=yTLC
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kenbonny
+
+==================================================================
