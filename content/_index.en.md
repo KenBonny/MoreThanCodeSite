@@ -61,6 +61,14 @@ Of course an old fashioned text message will work just as well.
 If you do need to get in touch urgently, your best option is to call me on [+32 (0)497 99 81 62](tel:+32497998162).
 
 If I can't pick up, I'll get back to you as soon as I can.
+
+Because it's not always possible to meet face-to-face, I am available via video calls. The easiest way to reach me is to call to [my Skype account](https://join.skype.com/invite/lY78H29xjQ3a).
+
+I also have a [Zoom](https://zoom.us/j/6549781686) account.
+
+Should you have another platform in mind, I can accomodate you.
+
+Making an appointment beforehand is advisable, as I don't have these applications open by default.
 {{% /card %}}
 {{< /row >}}
 

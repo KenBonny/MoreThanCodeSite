@@ -7,11 +7,10 @@ date: 2019-05-18T14:59:45+02:00
     <div class="col-md-8">
         <h1 class="display-1">Welkom</h1>
         <p class="lead">Ik ben Ken Bonny, een software vakman die zich specialiseert in Microsoft technologie.</p>
-
         <p class="lead">Als zaakvoerder van More Than Code, help ik mijn partners hun doelen te bereiken door onderhoudbare, uitbreidbare en veilige software te ontwikkelen.</p>
     </div>
-    <div class="col-md-4">
-        <img src="/img/ken/Ken mirrored-min.png" class="rounded headshot mx-auto d-block" alt="Ken Bonny">
+    <div class="col-md-4 text-center d-flex">
+        <img src="/img/ken/Ken mirrored-min.png" class="rounded headshot mx-auto my-auto" alt="Ken Bonny">
     </div>
 </div>
 
@@ -60,6 +59,14 @@ Natuurlijk werkt een lekker ouderwets SMS bericht ook nog altijd.
 Als u mij onmiddelijk nodig hebt, dan is uw beste optie om mij te bellen op [+32 (0)497 99 81 62](tel:+32497998162).
 
 Als ik niet kan opnemen, bel ik u zo snel mogelijk terug.
+
+Omdat het niet altijd mogelijk is om face-to-face af te spreken, ben ik bereikbaar via video calls. De gemakkelijkste is om te bellen naar [mijn Skype account](https://join.skype.com/invite/lY78H29xjQ3a).
+
+Daarnaast heb ik ook een [Zoom](https://zoom.us/j/6549781686) account.
+
+Mocht u een ander platform in gedachten hebben, kan ik mij daarnaar schikken.
+
+Maak eerst een afspraak, want ik heb deze applicaties niet standaard open staan.
 {{% /card %}}
 {{< /row >}}
 
