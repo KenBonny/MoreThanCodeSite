@@ -1,7 +1,9 @@
 baseURL: https://morethancode.be
-languageCode: nl-be
+languageCode: en
 title: More Than Code
 author: Ken Bonny
+markup:
+    defaultMarkdownHandler: blackfriday
 languages:
     en:
         languageName: English
