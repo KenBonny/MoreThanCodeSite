@@ -29,7 +29,7 @@ Een email naar [ken@morethancode.be](mailto:ken@morethancode.be) is de gemakkeli
 Het belangrijkste sociale medium voor recruiters, waar ook mijn meest geüpdate cv gevonden kan woden, is [mijn LinkedIn profile](https://www.linkedin.com/in/kenbonny/).
 
 ##### {{< icon s map-marker-alt >}} Adres
-Alle post kan verstuurd worden naar [August van Putlei 100, 2150 Borsbeek, Belgium](https://www.google.be/maps/place/August+van+Putlei+100,+2150+Borsbeek/).
+Alle post kan verstuurd worden naar [Tolbroek 42, 2560 Bevel](https://goo.gl/maps/D5jVdzcioAXC2qqq6).
 
 ##### {{< icon b facebook-f >}} Facebook
 Ik gebruik [mijn persoonlijke Facebook account](https://www.facebook.com/kenbonny1987) of [mijn bedrijfspagina](https://www.facebook.com/More-Than-Code-Comm-V-270796656734486/) niet veel. Ik check berichten hier minder dan eens per maand.
