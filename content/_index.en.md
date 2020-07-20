@@ -31,7 +31,7 @@ An email to [ken@morethancode.be](mailto:ken@morethancode.be) is the easiest way
 The most important social media for recruiters and my most up to date resume is found on [my LinkedIn profile](https://www.linkedin.com/in/kenbonny/).
 
 ##### {{< icon s map-marker-alt >}} Address
-All snail mail can be sent to [August van Putlei 100, 2150 Borsbeek, Belgium](https://www.google.be/maps/place/August+van+Putlei+100,+2150+Borsbeek/).
+All snail mail can be sent to [Tolbroek 42, 2560 Bevel, Belgium](https://goo.gl/maps/D5jVdzcioAXC2qqq6).
 
 ##### {{< icon b facebook-f >}} Facebook
 At the moment, I'm not using [my personal Facebook](https://www.facebook.com/kenbonny1987) or [my company page](https://www.facebook.com/More-Than-Code-Comm-V-270796656734486/), I check messages about once a month.
