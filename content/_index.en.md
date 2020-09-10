@@ -87,6 +87,6 @@ My [blog](https://kenbonny.net/) is where I write about the technical challenges
 
 My blog is a good place to gauge my technical skill, but nothing beats the actual code that I produce. This can be found on [my GitHub profile {{< icon b github >}}](https://github.com/KenBonny). Here you can find out if my code is as clean as I say it is.
 
-No profile is complete without a good, oldfashioned [resume {{< icon s file-pdf >}}](documents/cv-ken-bonny.pdf)
+No profile is complete without a good, oldfashioned [resume {{< icon s file-pdf >}}](documents/cv-ken-bonny-en.pdf)
 
 Finally, if you need to encrypt a message that you want to send to me and don't trust Wire or Signal, you can find [my KeyBase profile {{< icon b keybase >}}](https://keybase.io/kenbonny). If you don't know what that is, don't worry about it, it's a technical, security and mainly geek thing.
