@@ -75,7 +75,8 @@ Als u mij voor uit de goedheid van uw hart wil sponsoren (of ik heb makkelijk to
 <u title="Copy to clipboard"
     data-toggle="tooltip" 
     data-placement="bottom" 
-    onclick="clipboard('BE70 7512 08744 2525')">BE70 7512 08744 2525</u>
+    style="pointer"
+    onclick="clipboard('BE70 7512 0874 2525')">BE70 7512 0874 2525</u>
  (BIC <u title="Copy to clipboard"
             data-toggle="tooltip" 
             data-placement="bottom" 
@@ -85,6 +86,6 @@ Op mijn [blog](https://kenbonny.net/) schrijf ik over de technische uitdagingen 
 
 Mijn blog is een goede plek om mijn technische vaardigheden in te schatten, maar er gaat niets boven de effectieve code die ik schrijf. Deze kan op [mijn GitHub profiel {{< icon b github >}}](https://github.com/KenBonny) gevonden worden. Hier kan u zien of mijn code effectief zo goed is als ik beweer.
 
-Geen profiel is compleet zonder een [CV {{< icon s file-pdf >}}](documents/cv-ken-bonny.pdf).
+Geen profiel is compleet zonder een [CV {{< icon s file-pdf >}}](documents/cv-ken-bonny-nl.pdf).
 
 Als laatste heb ik ook een [KeyBase profiel {{< icon b keybase >}}](https://keybase.io/kenbonny). Dit kan u gebruiken om een beveiligd bericht naar mij te versturen. Als u niet weet wat dit is, dan kan u dit gewoon negeren. Het is een zeer technisch, hoofdzakelijk geeky, platform dat voornamelijk voor geavanceerde beveiligingsdoeleinden gebruikt word.

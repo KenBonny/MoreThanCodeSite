@@ -77,7 +77,7 @@ If you want to sponsor me for no reason at all (or I need easy access to my bank
 <u title="Copy to clipboard"
     data-toggle="tooltip" 
     data-placement="bottom" 
-    onclick="clipboard('BE70 7512 08744 2525')">BE70 7512 08744 2525</u>
+    onclick="clipboard('BE70 7512 0874 2525')">BE70 7512 0874 2525</u>
  (BIC <u title="Copy to clipboard"
             data-toggle="tooltip" 
             data-placement="bottom" 
