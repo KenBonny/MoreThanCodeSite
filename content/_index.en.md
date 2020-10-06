@@ -77,10 +77,12 @@ If you want to sponsor me for no reason at all (or I need easy access to my bank
 <u title="Copy to clipboard"
     data-toggle="tooltip" 
     data-placement="bottom" 
+    class="pointer"
     onclick="clipboard('BE70 7512 0874 2525')">BE70 7512 0874 2525</u>
  (BIC <u title="Copy to clipboard"
             data-toggle="tooltip" 
             data-placement="bottom" 
+            class="pointer"
             onclick="clipboard('AXABB22')">AXABB22</u>)
 
 My [blog](https://kenbonny.net/) is where I write about the technical challenges I encounter and how I solve them. I hope some other developers find it helpful. I occasionally write about my personal life or something that has happened to me.

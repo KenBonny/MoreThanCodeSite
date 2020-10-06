@@ -75,11 +75,12 @@ Als u mij voor uit de goedheid van uw hart wil sponsoren (of ik heb makkelijk to
 <u title="Copy to clipboard"
     data-toggle="tooltip" 
     data-placement="bottom" 
-    style="pointer"
+    class="pointer"
     onclick="clipboard('BE70 7512 0874 2525')">BE70 7512 0874 2525</u>
  (BIC <u title="Copy to clipboard"
             data-toggle="tooltip" 
             data-placement="bottom" 
+            class="pointer"
             onclick="clipboard('AXABB22')">AXABB22</u>)
 
 Op mijn [blog](https://kenbonny.net/) schrijf ik over de technische uitdagingen die ik tegenkom en hoe ik deze oplos. Ik hoop dat het mede-ontwikkelaars helpt. Ik schrijf occasioneel ook mijn persoonlijk leven of over situaties die ik meemaak.

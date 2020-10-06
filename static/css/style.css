@@ -37,6 +37,9 @@ footer {
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
+.pointer {
+    cursor: pointer;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-height: 576px) { 
